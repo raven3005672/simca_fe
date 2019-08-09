@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "jsx": "react"  // preserve生成代码中会保留jsx以供后续的babel使用
+    },
+    "include": [
+        "./src/*",
+        "./src/**/*"
+    ]
+}
