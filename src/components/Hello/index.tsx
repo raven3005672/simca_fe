@@ -12,6 +12,7 @@ export default class Hello extends React.Component<HelloProps, object> {
         return (
             <div className="Hello">
                 Hello {name}
+                <h2>yoyoyo</h2>
             </div>
         )
     }

@@ -64,19 +64,19 @@ module.exports = {
             {
                 test: /\.(tsx|ts)?$/,
                 use: [
-                    {
-                        loader: 'babel-loader',
-                        options: {
-                            presets: [
-                                '@babel/preset-env',
-                                '@babel/react'
-                            ],
-                            plugins: [
-                                require('@babel/plugin-proposal-object-rest-spread'),
-                                [require('@babel/plugin-proposal-decorators'), {"legacy": true}]
-                            ]
-                        }
-                    },
+                    // {
+                    //     loader: 'babel-loader',
+                    //     options: {
+                    //         presets: [
+                    //             '@babel/preset-env',
+                    //             '@babel/react'
+                    //         ],
+                    //         plugins: [
+                    //             require('@babel/plugin-proposal-object-rest-spread'),
+                    //             [require('@babel/plugin-proposal-decorators'), {"legacy": true}]
+                    //         ]
+                    //     }
+                    // },
                     'ts-loader'
                 ]
             },
